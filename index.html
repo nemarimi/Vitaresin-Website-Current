@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitaresin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-bg fixed-top">
+        <div class="custom-navbar container-fluid">
+            <div class="d-flex align-items-center fw-semibold menu-open">
+                <a class="navbar-brand" href="./index.html"><img src="./images/vitresin-logo.png" alt="Vitaresin"
+                        class="navbar-img"></a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-slide" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            aria-current="page" href="./index.html" title="Anasayfa">Anasayfa</a>
+                        <a class="nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="./about-us.html" title="Hakkımızda">Hakkımızda</a>
+                        <a class="nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="blogs.html" title="Bloglar">Bloglar</a>
+                        <a class="nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="training.html" title="Eğitimler">Eğitim</a>
+                        <div class="information info-menu ">
+                            <div
+                                class="toggle-contact-container d-flex align-items-center justify-content-center gap-4">
+                                <div class="contact-number">
+                                    <a href="#" class="fw-bold text-decoration-none">0404 404 4040</a>
+                                </div>
+                                <div class="contact-button">
+                                    <a href="./contact.html" class="text-decoration-none custom-btn text-white"
+                                        title="İletişim">İletİşİm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="information info-none">
+                <div class="contact-container d-flex align-items-center gap-4">
+                    <div class="contact-number">
+                        <a href="#" class="fw-bold text-decoration-none" title="">0404 404 4040</a>
+                    </div>
+                    <div class="contact-button">
+                        <a href="./contact.html" class="text-decoration-none custom-btn text-white"
+                            title="İletişim">İletİşİm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="banner-left">
+            <h1 class="banner-title display-2 fw-bold pb-3 m-0">VİTARESİN Dark ile Keskin ve Yüksek Detaylar</h1>
+            <div class="text-muted fw-regular pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                labore eos
+                fuga nemo dolor aperiam neque.
+            </div>
+            <div>
+                <a href="#" class="custom-btn" title="Detaylİ Bİlgi">Detaylı Bİlgİ</a>
+            </div>
+        </div>
+        <div class="banner-right banner-image">
+            <img src="./images/banner-1.png" alt="gülümseyin" class="banner-image-image"
+                title="VİTARESİN Dark ile Keskin ve Yüksek Detaylar">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="features-container container d-flex flex-column">
+            <div class="first-content">
+                <div class="content-title text-center d-flex flex-column-reverse">
+                    <h2 class="display-5 custom-title">3D with VİTARESİN</h2>
+                    <small class="custom-subtitle">Neler Yapıyoruz?</small>
+                </div>
+                <div class="content-body d-flex justify-content-evenly">
+                    <div class="features-card">
+                        <span>
+                            <img src="./images/3d-model-64.png" alt="Maket Model İcon" class="icon-size"
+                                title="Maket Modelleme">
+                        </span>
+                        <h3 class="fw-bold pt-2 fs-2">Maket Model</h3>
+                        <p class="text-muted fw-regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Eligendi, ipsum pariatur? Suscipit
+                            accusamus debitis quasi molestiae corrupti autem ipsa cumque!</p>
+                    </div>
+                    <div class="features-card">
+                        <span>
+                            <img src="./images/icons8-3d-model-66.png" alt="Kuyumculuk İcon" class="icon-size"
+                                title="Kuyumculuk">
+                        </span>
+                        <h3 class="fw-bold pt-2 fs-2">Kuyumculuk</h3>
+                        <p class="text-muted fw-regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Eligendi, ipsum pariatur? Suscipit
+                            accusamus debitis quasi molestiae corrupti autem ipsa cumque!</p>
+                    </div>
+                    <div class="features-card">
+                        <span>
+                            <img src="./images/icons8-3d-model-64.png" alt="Dental İcon" class="icon-size"
+                                title="Dental">
+                        </span>
+                        <h3 class="fw-bold pt-2 fs-2">Dental</h3>
+                        <p class="text-muted fw-regular">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Eligendi, ipsum pariatur? Suscipit
+                            accusamus debitis quasi molestiae corrupti autem ipsa cumque!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vitaresin-page d-flex gap-5">
+                <div class="page-image mx-auto left-item">
+                    <div>
+                        <img src="./images/content-image.png" alt="Modern Vitaresin" class="page-image-image"
+                            title="En İyi 3D Diş Reçineleri">
+                    </div>
+
+                    <div class="image-box">
+                        Lorem ipsum dolor sit. Kısaca ipsum modern.
+                    </div>
+                </div>
+                <div class="page-body text-start align-items-center d-flex">
+                    <div class="content-title d-flex flex-column">
+                        <div class="flex-column-reverse d-flex">
+                            <h2 class="display-5 custom-title">En İyi 3D Diş Reçineleri</h2>
+                            <small class="custom-subtitle">Bİz Kİmİz?</small>
+                        </div>
+                        <p class="text-muted fw-regular py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Similique, veritatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
+                            deserunt est, libero maiores corporis atque magni quam, vel repellendus rem exercitationem
+                            necessitatibus officia molestias. Ad soluta eius repellendus ratione quisquam beatae, atque
+                            ipsam numquam iste temporibus. Dignissimos deserunt aspernatur enim?</p>
+                        <div>
+                            <div class="fw-bold fs-5"><span class="text-muted fs-5">01. </span>Lorem, ipsum dolor.</div>
+                            <hr class="text-muted opacity-10 shadow-sm">
+                            <div class="fw-bold fs-5 "><span class="text-muted fs-5">02. </span>Lorem, ipsum dolor.
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <a href="#" class="custom-btn">Detaylı Bİlgİ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jumbotron video-jumbotron">
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="d-flex services-header">
+                <div class="services-title text-start d-flex flex-column-reverse">
+                    <h2 class="display-5 custom-title">3D Resin Hizmetlerimiz</h2>
+                    <small class="custom-subtitle">Neler Sunuyoruz?</small>
+                </div>
+                <div class="services-body">
+                    <p class="text-muted fw-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                        earum
+                        animi porro consequuntur error, quaerat, quos doloribus voluptas nisi fuga excepturi numquam,
+                        dolorum tempore officia veniam similique dolor at doloremque?</p>
+                </div>
+                <div class="services-footer d-flex">
+                    <a href="" class="text-decoration-none text-dark">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+            <div class="services-cards">
+                <div class="services-card-container">
+                    <div class="services-card shadow-sm">
+                        <div class="services-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Dental Hizmet" class="services-card-image"
+                                    title="Dental Hizmet">
+                            </a>
+                        </div>
+                        <div class="services-card-body d-flex flex-column text-center">
+                            <h3 class="fw-bold">Dental</h3>
+                            <p class="text-muted fw-regular">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur nemo fugiat
+                                placeat modi odio vero eos accusamus tempora voluptatum?
+                            </p>
+                            <span>
+                                <a href="#" class="text-decoration-none text-dark fw-bold"> Detaylı Bilgi</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-card-container">
+                    <div class="services-card shadow-sm">
+                        <div class="services-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage3.png" alt="İnce İşçilik" class="services-card-image"
+                                    title="Kuyumculuk">
+                            </a>
+                        </div>
+                        <div class="services-card-body d-flex flex-column text-center">
+                            <h3 class="fw-bold">Kuyumculuk</h3>
+                            <p class="text-muted fw-regular">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur nemo fugiat
+                                placeat modi odio vero eos accusamus tempora voluptatum?
+                            </p>
+                            <span>
+                                <a href="#" class="text-decoration-none text-dark fw-bold"> Detaylı Bilgi</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-card-container mb-0">
+                    <div class="services-card shadow-sm">
+                        <div class="services-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage2.png" alt="Ön Modelleme" class="services-card-image"
+                                    title="Maket Model">
+                            </a>
+                        </div>
+                        <div class="services-card-body d-flex flex-column text-center">
+                            <h3 class="fw-bold">Maket Model</h3>
+                            <p class="text-muted fw-regular">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur nemo fugiat
+                                placeat modi odio vero eos accusamus tempora voluptatum?
+                            </p>
+                            <span>
+                                <a href="#" class="text-decoration-none text-dark fw-bold"> Detaylı Bilgi</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partners-slider">
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin " class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+                <div class="partners-box">
+                    <img src="./images/vitresin-logo.png" alt="Vitaresin" class="partners-image" title="Vitaresin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="showcase-container">
+            <div class="showcase-item">
+                <div class="showcase-image">
+                    <img src="./images/blogimage1.png" alt="Dental" title="Vitaresin">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <div class="showcase-image">
+                    <img src="./images/blogimage2.png" alt="Dental" title="Vitaresin">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <div class="showcase-image">
+                    <img src="./images/blogimage3.png" alt="Dental" title="Vitaresin">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <div class="showcase-image">
+                    <img src="./images/blogimage3.png" alt="Dental" title="Vitaresin">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <div class="showcase-image">
+                    <img src="./images/blogimage1.png" alt="Dental" title="Vitaresin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="blogs-page d-flex flex-column gap-5 text-center">
+                <div class="blog-header">
+                    <div class="blog-title text-center d-flex flex-column-reverse">
+                        <h2 class="display-5 custom-title">Son Paylaşılan Bloglar</h2>
+                        <small class="custom-subtitle">Bloglarımız</small>
+                    </div>
+                    <div class="blog-title-body text-center col-md-8 mx-auto">
+                        <p class="text-muted mx-auto blog-description fw-regular">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Eveniet ipsam rerum nesciunt praesentium
+                            in, consequatur fugit ratione fugiat quasi voluptas?</p>
+                    </div>
+                </div>
+                <div class="blog-slider">
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Lorem" class="blog-card-image" title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image flex-column">
+                            <a href="#">
+                                <img src="./images/blogimage1.png" alt="Blog Yazımız" class="blog-card-image"
+                                    title="Lorem">
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column text-start text-box">
+                            <a href="#" class="text-decoration-none text-dark blog-card-body">
+                                <div class="mb-2 text-muted">
+                                    <small class="fw-bold text-uppercase">lorem</small>
+                                </div>
+                                <h3 class="fw-bold blog-card-title fs-5">Lorem ipsum dolor sit.</h3>
+                                <div class="mt-4">
+                                    <small class="text-muted fw-bold ">02.04.2024</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container-fluid">
+            <div class="z-depth-1-half map-container d-flex">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.6059676668!2d29.01217945!3d41.0053215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1705643252479!5m2!1str!2str"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="my-iframe"></iframe>
+            </div>
+            <div class="map-box-container">
+                <div class="map-box">
+                    <div class="custom-title text-start d-flex flex-column-reverse form-box p-0">
+                        <h2 class="display-5 custom-title">Bir Sorunuz Varsa Bizimle İletişime Geçin!</h2>
+                        <small class="custom-subtitle">Bİze Ulaşın!</small>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between form-box">
+                        <div class="form-input box-items">
+                            <label><i class="fa-regular fa-user"></i></label>
+                            <input type="text" name="Adınız" placeholder="Adınız" autocomplete="name">
+                        </div>
+                        <div class="form-input box-items">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" name="Soyadınız" placeholder="Soyadınız" autocomplete="name">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between form-box">
+                        <div class="form-input box-items">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" name="Telefon" placeholder="Telefon" autocomplete="tel">
+                        </div>
+                        <div class="form-input box-items">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <!-- <input type="text" name="Konu" placeholder="Konu"> -->
+                            <select name="konu" id="" aria-placeholder="Konu" style="width: 100%;">
+                                <option value="selected">Konu</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact-button">
+                        <a href="./contact.html" class="text-decoration-none custom-btn text-white"
+                            title="BİZE ULAŞ">Bİze
+                            Ulaş</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-form">
+            <div class="container">
+                <div class="mobile-map-form">
+                    <div class="custom-title text-start d-flex flex-column-reverse form-box p-0">
+                        <h2 class="display-5 custom-title">Bir Sorunuz Varsa Bizimle İletişime Geçin!</h2>
+                        <small class="custom-subtitle">Bİze Ulaşın!</small>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between form-box">
+                        <div class="form-input box-items">
+                            <label><i class="fa-regular fa-user"></i></label>
+                            <input type="text" name="Adınız" placeholder="Adınız" autocomplete="name">
+                        </div>
+                        <div class="form-input box-items">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" name="Soyadınız" placeholder="Soyadınız" autocomplete="name">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between form-box">
+                        <div class="form-input box-items">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="text" name="Telefon" placeholder="Telefon" autocomplete="tel">
+                        </div>
+                        <div class="form-input box-items">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <!-- <input type="text" name="Konu" placeholder="Konu"> -->
+                            <select name="konu" id="" aria-placeholder="Konu" style="width: 100%;">
+                                <option value="selected">Konu</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                                <option value="value">...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-textarea">
+                        <div class="box-items custom-width">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <input type="text" name="Mesajınız" placeholder="Mesajınız.." autocomplete="on">
+                        </div>
+                    </div>
+                    <div class="contact-button">
+                        <a href="./contact.html" class="text-decoration-none custom-btn text-white"
+                            title="BİZE ULAŞ">Bİze
+                            Ulaş</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="bg bg-black">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="d-grid justify-content-between text-white py-5">
+                    <div class="footer-top d-flex justify-content-between">
+                        <div class="col-md-4">
+                            <div class="footer-title">Vitaresin</div>
+                            <p class="pe-5 footer-vresin">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio, architecto deserunt?
+                                Totam vitae nemo eaque sunt ipsam quod aspernatur quas ab, perspiciatis necessitatibus
+                                neque, ullam a tempore in quibusdam sequi.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-title">İletişim</div>
+                            <div class="contact-body">
+                                <div class="py-3">
+                                    <a href="#" target="_blank" class="text-decoration-none text-white">
+                                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                                            eaque.</p>
+                                    </a>
+                                </div>
+                                <div class="py-3">
+                                    <a href="#" class="text-white fw-regular link-offset-3">info@lorem.com</a>
+                                </div>
+                                <div class="py-3">
+                                    <a href="#" class="text-decoration-none text-white fw-regular">0505 348 3943</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-title">Linkler</div>
+                            <ul class="links">
+                                <li><a href="#" class="text-decoration-none text-white">Anasayfa</a></li>
+                                <li><a href="#" class="text-decoration-none text-white">Hakkımızda</a></li>
+                                <li><a href="#" class="text-decoration-none text-white">Ürünler</a></li>
+                                <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
+                                <li><a href="#" class="text-decoration-none text-white">İletişim</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="footer-title">Bize Ulaşın</div>
+                            <div class="bize-ulasin d-flex flex-column">
+                                <div class="social-media">
+                                    <a href="#" target="_blank"
+                                        class="text-decoration-none text-white d-flex gap-3 align-items-center">
+                                        <i class="fa-brands fa-facebook-f fa-sm"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </div>
+                                <div class="social-media">
+                                    <a href="#" target="_blank"
+                                        class="text-decoration-none text-white d-flex gap-3 align-items-center">
+                                        <i class="fa-brands fa-instagram fa-sm"></i>
+                                        <span>İnstagram</span>
+                                    </a>
+                                </div>
+                                <div class="social-media">
+                                    <a href="#" target="_blank"
+                                        class="text-decoration-none text-white d-flex gap-3 align-items-center">
+                                        <i class="fa-brands fa-twitter fa-sm"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white">
+                <div class="footer-bottom text-white py-4">
+                    Vitaresin 2024. Tüm Hakları Saklıdır.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
